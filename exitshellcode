@@ -22,6 +22,6 @@ main(){
 	ret();
 }
 
-
+root@kali:~/Desktop/Elf_Binary_Analysis/exit# gcc shellexecutor_template.c -fno-stack-protector -z execstack -o shellexecutor_template.out
 root@kali:~/Desktop/Elf_Binary_Analysis/exit# ./shellexecutor_template.out 
 Shellcode Length: 6
